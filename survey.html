@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="survey.css">
+<h1 id="title">How to make an incredible body</h1>
+<p id="description">First of all, you need to connect your mind and body</p>
+<form id="survey-form">
+  <div class="input-element"> 
+  <label id="name-label">Name</label>
+  <input required id="name" type="text" placeholder="Enter your name">
+</div>
+<div class="input-element">
+<label id="email-label">Email</label>
+  <input required id="email" type="email" placeholder="Enter your email">
+</div>
+<div class="input-element">
+  <label id="number-label">Age</label>
+  <input required id="number" type="number" min="5" max="22"
+  placeholder="age ">
+</div>
+<div class="input-element">
+  <label id="select-label">
+    What's your favourite Muscle
+    </label>
+  <select id="dropdown"> 
+    <option>Chest</option>
+    <option>Back</option>
+    <option>Shoulder</option>
+    <option>Bicep</option>
+    <option>Tricep</option>
+    <option>Leg</option>
+  </select>
+  </div>
+  <div>
+    <label>
+      Do you love working out
+    </label>
+    <label> Yes<input type="radio" value="yes" name="game"></label>
+    <label>No<input type="radio" value="no" name="game"></label>
+  </div>
+   <div>
+    <label>
+      What modifications needed in the gym?
+    </label>
+    <label> Cheap<input type="checkbox" value="cheap" name="modify"></label>
+    <label>Free shower<input type="checkbox" value="shower" name="modify"></label>
+<label> Sanity<input type="checkbox" value="clean" name="modify"></label>
+    <label>Trainer<input type="checkbox" value="trainer" name="modify"></label>
+  </div>
+<div>
+  <label>
+    Additional comments
+  </label><br>
+ <textarea type="text"></textarea>
+</div>
+<button type="submit"id="submit">
+  Submit
+</button>
+</form>

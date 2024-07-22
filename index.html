@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pramit Amatya</title>
     <link rel="stylesheet" href="styles.css">
+     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,500&family=Montserrat:wght@900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
@@ -14,33 +15,60 @@
             <a href="#welcome-section" class="nav-link"><img src="image/pumpking.png" alt=""></a>
             <ul class="nav-links">
                 <li><a href="#welcome-section" class="nav-link">Welcome</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
     </header>
     <section id="welcome-section">
-        <h1>Hello, I am Pramit.</h1>
-        <p>A full stack and a web developer.</p>
+        <div class="hello">
+            <h1>Hello, I am Pramit.</h1>
+            <p>A full stack and a web developer.</p>
+            <a class="resume" download href="CV.pdf" >See my resume</a>
+        </div>
+        <img src="image/me.jpg" class="image" alt="">
+        <!-- <div class="hello">
+            <img src="image/me.jpg" alt="">
+            <h1>Hello, I am Pramit.</h1>
+            <p>A full stack and a web developer.</p>
+        </div> -->
     </section>
+    <section id="skills">
+        <div class="skill"> 
+            <h1>My skills</h1>
+            <li><h3>HTML</h3>
+                <span class="bar"><span class="html"></span></span>
+            </li>
+            <li><h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+            </li>
+            <li><h3>JavaScript</h3>
+                <span class="bar"><span class="javascript"></span></span>
+            </li>
+            <li><h3>PHP</h3>
+                <span class="bar"><span class="php"></span></span>
+            </li>
+        </div>
+        </section>
     <section id="projects">
         <h1>These are some of my projects</h1>
         <div class="projects"> 
-            <a href="#" class="project-tile">
+            <a href="http://pramitamatya.com.np/tribute.html" class="project-tile">
                 <img src="image/tribute.png" alt="">
                 <p><span>&lt;</span>Tribute Page<span>/&gt;</span></p>
             </a>
-            <a href="" class="project-tile">
+            <a href="http://pramitamatya.com.np/tictactoe.html" class="project-tile">
+                <img src="image/tictactoe.png" alt="">
+                <p><span>&lt;</span>Tic Tac Toe<span>/&gt;</span></p>
+            </a>
+            <a href="http://pramitamatya.com.np/rockpaperscissors.html" class="project-tile">
+                <img src="image/rps.png" alt="">
+                <p><span>&lt;</span>Rock Paper Scissors<span>/&gt;</span></p>
+            </a>
+            <a href="survey.html" class="project-tile">
                 <img src="image/survey.png" alt="">
                 <p><span>&lt;</span>Survey Form<span>/&gt;</span></p>
-            </a>
-            <a href="" class="project-tile">
-                <img src="image/documentation.png" alt="">
-                <p><span>&lt;</span>Techincal Documentation<span>/&gt;</span></p>
-            </a>
-            <a href="" class="project-tile">
-                <img src="image/product.png" alt="">
-                <p><span>&lt;</span>Product Landing Page<span>/&gt;</span></p>
             </a>
         </div>
         <a href="" class="show-all">Show All <i class="ri-arrow-right-s-line"></i></a>
